@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1f4e3d">
+  <meta name="description" content="An evidence checklist for the Bayou City Food Network pilot and launch decisions.">
+  <title>Pilot readiness checklist | BCFN</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="page-width site-bar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">BCFN</span>
+        <span>Bayou City Food Network</span>
+      </div>
+      <span class="case-label">Fictional case prototype</span>
+    </div>
+  </header>
+
+  <main class="page-width">
+    <div class="intro">
+      <div>
+        <h1>Pilot readiness checklist</h1>
+        <p>Record evidence for the April pilot expansion and June 1 launch decisions.</p>
+      </div>
+      <div class="document-actions">
+        <button class="button button-outline" type="button" id="download" aria-label="Download record as Markdown">Download record</button>
+        <button class="button button-quiet" type="button" id="print">Print</button>
+      </div>
+    </div>
+
+    <section class="gate-panel" aria-labelledby="gate-title">
+      <fieldset class="gate-options">
+        <legend id="gate-title">Review gate</legend>
+        <div class="gate-choices">
+          <label class="gate-choice">
+            <input type="radio" name="gate" value="gate1" autocomplete="off" checked>
+            <span class="gate-text">
+              <span class="gate-name">Gate 1 · Pilot expansion</span>
+              <time datetime="2027-04-15">April 15, 2027</time>
+            </span>
+          </label>
+          <label class="gate-choice">
+            <input type="radio" name="gate" value="gate2" autocomplete="off">
+            <span class="gate-text">
+              <span class="gate-name">Gate 2 · Launch readiness</span>
+              <time datetime="2027-05-20">May 20, 2027</time>
+            </span>
+          </label>
+        </div>
+      </fieldset>
+      <p id="print-gate" class="print-only print-gate"></p>
+      <p class="coverage"><strong>Coverage</strong> <span id="coverage">Aldine Community Table, Pasadena Hope Pantry, and warehouse sorting</span></p>
+    </section>
+
+    <noscript><p class="system-message">Enable JavaScript to record evidence, save a decision, and download your record.</p></noscript>
+
+    <section class="readiness" aria-labelledby="checks-title">
+      <div class="section-heading">
+        <div>
+          <h2 id="checks-title">Readiness checks</h2>
+          <p>Proposed criteria for team agreement. For open issues, record the action, owner, and recheck date.</p>
+        </div>
+        <p id="progress" class="progress" role="status">
+          <span id="progress-count">0 of 6 verified</span>
+          <span class="progress-state" id="progress-state">Hold</span>
+        </p>
+      </div>
+      <ul class="check-list" id="checks" role="list"></ul>
+    </section>
+
+    <section class="sponsor-panel" aria-labelledby="sponsor-title">
+      <div class="sponsor-heading">
+        <h2 id="sponsor-title">Sponsor decision</h2>
+        <p class="sponsor-owner">Monica Reyes · Executive Director</p>
+      </div>
+      <dl class="decision-rule">
+        <dt>Proposed decision rule</dt>
+        <dd>Hold while a check lacks evidence or verification. When all six checks are verified, Monica reviews the evidence and decides whether to approve the gate or pause for corrections.</dd>
+      </dl>
+      <p id="recorded-review" class="review-message" role="status"></p>
+      <form id="sponsor-form">
+        <div class="decision-fields">
+          <div class="field">
+            <label for="decision">Decision</label>
+            <select id="decision" required aria-describedby="decision-hint">
+              <option value="">Select a decision</option>
+              <option id="approve-option" value="approve" disabled>Expand the pilot</option>
+              <option value="pause">Pause for corrections</option>
+            </select>
+            <p class="field-help" id="decision-hint">Approval opens once all six checks are verified.</p>
+          </div>
+          <div class="field">
+            <label for="review-date">Decision date</label>
+            <input type="date" id="review-date" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="review-note">Decision note <span class="optional">optional</span></label>
+          <textarea id="review-note" rows="3" placeholder="Record the rationale or the action, owner, and recheck date."></textarea>
+        </div>
+        <button class="button button-primary" type="submit">Record sponsor decision</button>
+      </form>
+      <div id="print-review" class="print-only print-review"></div>
+    </section>
+
+    <footer class="page-footer">
+      <div>
+        <p id="save-status">Progress saves on this device.</p>
+        <p>Use the downloaded record to share this review.</p>
+      </div>
+      <div class="footer-actions">
+        <a href="./BCFN_Pilot_Readiness_Checklist.md" download="BCFN_Pilot_Readiness_Checklist.md">Download checklist brief</a>
+        <button class="button button-quiet" type="button" id="reset" aria-expanded="false" aria-controls="reset-confirm">Reset this gate</button>
+      </div>
+      <div id="reset-confirm" class="reset-confirm" hidden>
+        <p id="reset-description">Clear the evidence, verification, and sponsor decision for this gate?</p>
+        <div>
+          <button class="button button-quiet" type="button" id="cancel-reset">Cancel</button>
+          <button class="button button-primary" type="button" id="confirm-reset" aria-describedby="reset-description">Clear this gate</button>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <template id="check-template">
+    <li class="check-row">
+      <div class="check-copy">
+        <h3></h3>
+        <p class="check-owner"><span class="owner-label">Owner</span> <span class="owner-name"></span></p>
+        <p class="criterion"></p>
+        <p class="check-detail" hidden></p>
+      </div>
+      <div class="check-evidence">
+        <label class="evidence-label">Evidence and notes</label>
+        <textarea rows="3"></textarea>
+        <label class="verify-label"><input type="checkbox"> <span>Mark verified</span></label>
+        <p class="field-error" aria-live="polite"></p>
+        <div class="print-only">
+          <p class="print-check-state"></p>
+          <p class="print-evidence-label">Evidence and notes</p>
+          <p class="print-evidence"></p>
+        </div>
+      </div>
+    </li>
+  </template>
+</body>
+</html>

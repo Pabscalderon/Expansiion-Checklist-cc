@@ -1,0 +1,93 @@
+# BCFN Pilot Readiness Checklist
+
+**Bayou City Food Network · Proposed operating aid · Fictional student case**
+
+This checklist turns the presentation’s decision gates into a repeatable evidence review. It is a companion to the existing slides. The criteria below are team proposals, not additional requirements imposed by the case rubric.
+
+## Review details
+
+| Field | Gate 1 | Gate 2 |
+|---|---|---|
+| Review date | April 15, 2027 | May 20, 2027 |
+| Decision | Expand beyond the pilot? | Ready for June 1 launch? |
+| Coverage | Aldine Community Table, Pasadena Hope Pantry, warehouse sorting | All rollout sites and warehouse operations |
+| Decision owner | Monica Reyes, Executive Director | Monica Reyes, Executive Director |
+| Initial status | Not verified | Not verified |
+
+## Evidence checklist
+
+Each check needs recorded evidence before it can count as verified. For Gate 2, repeat the review across all rollout sites rather than relying on the pilot alone.
+
+| Check | Proposed evidence required | Accountable owner |
+|---|---|---|
+| 1. Site leads can use the tools | Each lead completes the one-hour training and demonstrates volunteer check-in and site ordering. Confirm translated quick cards in English, Spanish, and Vietnamese, plus buddy support for less tech-comfortable leads. Record names or roles, dates, and any follow-up needed. | James Tran + site champions |
+| 2. Reporting is consistent | Two consecutive weeks of complete reports covering demand, shortages, leftovers, and waste. Record the reporting periods and any gaps corrected. | Andre Williams |
+| 3. Weak-signal sites can operate | Complete an offline check-in test, reconnect, and confirm that records sync correctly. Record the site, device, date, and result. | Ray Delgado |
+| 4. Backup procedures work | Site leads demonstrate paper check-in and phone-in ordering. Confirm that backup materials and contact instructions are available. | Site champions |
+| 5. Performance supports the next step | Compare attendance and waste with baseline over stated periods. Record the results, explain deterioration, and resolve issues that would make expansion or launch inappropriate. The team must agree on any numerical thresholds; this prototype does not invent them. | James Tran + Andre Williams |
+| 6. Day-to-day ownership is accepted | Named owners accept volunteer scheduling, inventory/allocation, site support, and escalation duties. Confirm who covers June–July launch support and the August 1 handoff. | Monica Reyes |
+
+## Proposed decision rule
+
+- **Hold:** One or more checks lack verification or supporting evidence. Record the issue, an action owner, and a recheck date.
+- **Ready for sponsor review:** All six checks have been verified and have recorded evidence. This is not automatic approval.
+- **Expand / proceed to launch:** Monica reviews the evidence and explicitly records approval for the selected gate.
+- **Pause and correct:** Monica records the reason, corrective work, responsible owner, and recheck date.
+
+Changing a check or its evidence after a sponsor decision invalidates that decision and requires a fresh review. A readiness result is a record of a team review, not an independent audit of the evidence.
+
+## Evidence and corrective-action template
+
+Copy this block for each check when using the Markdown version:
+
+```text
+Check:
+Coverage / site:
+Owner:
+Verified: [ ]
+Evidence / observed result:
+Review date:
+Open issue:
+Corrective action:
+Action owner:
+Recheck date:
+```
+
+## Sponsor decision record
+
+```text
+Gate:
+Coverage:
+Decision: Pending / Expand / Proceed to launch / Pause and correct
+Sponsor: Monica Reyes
+Review date:
+Decision rationale:
+Conditions or corrective actions:
+Next review date:
+```
+
+## Working prototype
+
+The prototype is a task-focused checklist using the deck’s forest green, orange accents, pale green, and serif headings. It starts with no verified checks and no claimed operating results.
+
+1. Select the April 15 pilot gate or the May 20 launch gate.
+2. Record evidence and any corrective action for each check.
+3. Mark a check verified after reviewing its evidence.
+4. Once all six checks are verified, record the sponsor’s decision, date, and rationale.
+5. Download a Markdown review record or print the checklist for the group.
+
+Progress is saved in the current browser on the current device. It is not shared live between teammates. Download the review record to hand it off. The prototype does not collect household information, connect to volunteer or inventory tools, or verify evidence automatically.
+
+## Connection to the judging rubric
+
+| Rubric criterion | Weight | How this contribution helps |
+|---|---:|---|
+| Implementation and governance | 20% | Makes decision points, owners, corrective actions, and the operating handoff concrete. |
+| Adoption and readiness | 15% | Defines evidence for training, expansion readiness, language/support preparation, connectivity, and fallback procedures. |
+| Communication and Q&A | 10% | Gives the team a consistent answer to “What has to be true before you expand?” |
+
+Source: *Pariveda_Rubric_Clean_Final (1).pdf*, “Suggested Judging Criteria” and “Guiding Questions.” A separate prototype is a supporting contribution; the rubric does not require an app.
+
+## Message to the group
+
+> I put together a working pilot readiness checklist for our April 15 and May 20 decision gates. It lets us record evidence, flag corrections, and explain when we would expand or pause. The criteria are proposed for us to agree on, and it supports the implementation and adoption sections without changing the slides.
