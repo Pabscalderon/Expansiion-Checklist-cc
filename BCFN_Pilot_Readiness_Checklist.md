@@ -36,8 +36,3 @@ Each check needs recorded evidence before it can count as verified. For Gate 2, 
 
 Changing a check or its evidence after a sponsor decision invalidates that decision and requires a fresh review. A readiness result is a record of a team review, not an independent audit of the evidence.
 
-## Working prototype
-
-The prototype is a task-focused checklist using the deck’s forest green, orange accents, pale green, and serif headings. It starts with no verified checks and no claimed operating results.
-
-
