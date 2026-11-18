@@ -70,24 +70,4 @@ Next review date:
 
 The prototype is a task-focused checklist using the deck’s forest green, orange accents, pale green, and serif headings. It starts with no verified checks and no claimed operating results.
 
-1. Select the April 15 pilot gate or the May 20 launch gate.
-2. Record evidence and any corrective action for each check.
-3. Mark a check verified after reviewing its evidence.
-4. Once all six checks are verified, record the sponsor’s decision, date, and rationale.
-5. Download a Markdown review record or print the checklist for the group.
 
-Progress is saved in the current browser on the current device. It is not shared live between teammates. Download the review record to hand it off. The prototype does not collect household information, connect to volunteer or inventory tools, or verify evidence automatically.
-
-## Connection to the judging rubric
-
-| Rubric criterion | Weight | How this contribution helps |
-|---|---:|---|
-| Implementation and governance | 20% | Makes decision points, owners, corrective actions, and the operating handoff concrete. |
-| Adoption and readiness | 15% | Defines evidence for training, expansion readiness, language/support preparation, connectivity, and fallback procedures. |
-| Communication and Q&A | 10% | Gives the team a consistent answer to “What has to be true before you expand?” |
-
-Source: *Pariveda_Rubric_Clean_Final (1).pdf*, “Suggested Judging Criteria” and “Guiding Questions.” A separate prototype is a supporting contribution; the rubric does not require an app.
-
-## Message to the group
-
-> I put together a working pilot readiness checklist for our April 15 and May 20 decision gates. It lets us record evidence, flag corrections, and explain when we would expand or pause. The criteria are proposed for us to agree on, and it supports the implementation and adoption sections without changing the slides.
