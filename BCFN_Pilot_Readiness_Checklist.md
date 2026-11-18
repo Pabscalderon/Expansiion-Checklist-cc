@@ -36,36 +36,6 @@ Each check needs recorded evidence before it can count as verified. For Gate 2, 
 
 Changing a check or its evidence after a sponsor decision invalidates that decision and requires a fresh review. A readiness result is a record of a team review, not an independent audit of the evidence.
 
-## Evidence and corrective-action template
-
-Copy this block for each check when using the Markdown version:
-
-```text
-Check:
-Coverage / site:
-Owner:
-Verified: [ ]
-Evidence / observed result:
-Review date:
-Open issue:
-Corrective action:
-Action owner:
-Recheck date:
-```
-
-## Sponsor decision record
-
-```text
-Gate:
-Coverage:
-Decision: Pending / Expand / Proceed to launch / Pause and correct
-Sponsor: Monica Reyes
-Review date:
-Decision rationale:
-Conditions or corrective actions:
-Next review date:
-```
-
 ## Working prototype
 
 The prototype is a task-focused checklist using the deck’s forest green, orange accents, pale green, and serif headings. It starts with no verified checks and no claimed operating results.
